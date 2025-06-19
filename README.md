@@ -1,16 +1,18 @@
 # Health_Query_Chatbot
 Basic Health Query Chatbot
-The Health Query Chatbot is an AI-powered conversational assistant designed to provide informative responses to general health-related queries. Built using large language models like Mistral-7B-Instruct , this chatbot runs locally and provides private, fast, and context-aware assistance on topics like symptoms, wellness, fitness, diet, and more.
- Streamlit-based web UI for easy and interactive chat interface
+### Objective
+Create a chatbot that can answer basic health-related questions using an LLM (Large Language Model).
 
-💡 Supports natural language queries like:
+### Description
+A general-purpose chatbot was built using either OpenAI’s GPT-3.5 API or the open-source Mistral-7B-Instruct model (Hugging Face). Prompt engineering was used to instruct the chatbot to act as a helpful virtual medical assistant. Queries were carefully filtered to avoid unsafe or diagnostic advice.
 
-“What are the symptoms of diabetes?”
+### Example Queries:
+- “What causes a sore throat?”
+- “Is paracetamol safe for children?”
+- “What are flu symptoms?”
 
-“Give tips for improving sleep.”
-
-“What foods are rich in iron?”
-
-🔒 No personal data storage – fully stateless and local
-
-⚙️ Environment configuration via .env file for API keys and model settings
+### 🛠Skills Demonstrated
+- Prompt engineering and LLM integration  
+- Chatbot development  
+- API usage (OpenAI or Hugging Face)  
+- Safety and ethical response handling  
